@@ -14,9 +14,11 @@ In our paper, we propose HiFi-Coulomb-GAN, a Generative Adversarial Network mode
 ```
 python train.py -c config.yaml
 ```
+
 ## Inference
-1. Use test files from the MS-SNSD dataset or use your own.
+1. Use test files from the MS-SNSD dataset or use your own. Make a new directory to save these test files.
 2. Run the following command:
 ```
-python inference.py --checkpoint_file [generator checkpoint file]
+python inference.py --input_file_dir [test file directory] --checkpoint_file [generator checkpoint file] -c config.yaml
 ```
+
