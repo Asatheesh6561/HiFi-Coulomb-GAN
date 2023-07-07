@@ -1,4 +1,4 @@
-# Denoising Audio using HiFi-Coulomb-GANs
+# Denoising Speech Signals using HiFi-Coulomb-GANs
 ## Anirudh Satheesh, Karthick Muthu-Manivannan
 
 In our paper, we propose HiFi-Coulomb-GAN, a Generative Adversarial Network model that combines the approaches of HiFi-GAN by Su et al. and CoulombGAN by Unterthiner et al. for audio denoising and speech enhancement. We provide an open-source implementation of our code in this repository along with a pretrained model.
